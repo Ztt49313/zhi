@@ -1,0 +1,148 @@
+
+/* 基础样式 */
+body {
+  font-family: "Microsoft YaHei", sans-serif; /* 设置字体系列为微软雅黑或无衬线字体 */
+  margin: 0; /* 设置外边距为0像素 */
+  padding: 0; /* 设置内边距为0像素 */
+}
+.container {
+  width: 100%; /* 设置宽度为父容器的100%，即全宽 */
+  margin: 0 auto; /* 设置外边距为0，并使元素水平居中 */
+}
+/* 头部导航栏 */
+nav {
+  display: flex; /* 设置导航栏为Flexbox布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  background-color: #0099cc; /* 设置背景色为浅蓝色 */
+  color: #fff; /* 设置文字颜色为白色 */
+  padding: 10px 0; /* 设置内边距为10像素，上下各10像素 */
+}
+.logo {
+  color: #ffffff; /* 红色 */
+    font-size: 25px; /* 字体大小为20像素 */
+    text-decoration: none; /* 移除下划线 */
+    transition: color 0.3s ease; /* 颜色变化的过渡效果 */
+  width: 100%; /* 设置宽度为父容器的100%，即全宽 */
+  font-size: 24px; /* 设置字体大小为24像素 */
+
+  text-align: center; /* 设置文本居中对齐 */
+  align-items: center; /* 垂直居中 */
+  display: flex; /* 设置为Flexbox布局 */
+  background-color: #0099cc; /* 设置背景色为浅蓝色 */
+}
+.logo:hover {
+  color: #0000ff; /* 鼠标悬停时变成蓝色 */
+  text-decoration: none; /* 移除下划线 */
+  transition: color 0.3s ease; /* 颜色变化的过渡效果 */
+}
+.logo img {
+  width: 4%;
+  height: auto;
+  object-fit: cover;
+}
+
+nav ul {
+  list-style: none; /* 去除列表项的默认样式 */
+  margin: 0; /* 去除默认的外边距 */
+  padding: 0; /* 去除默认的内边距 */
+}
+nav ul li {
+  display: inline-block; /* 使导航链接并排显示 */
+  margin-right: 20px; /* 设置每个导航链接之间的间隔为20像素 */
+}
+nav ul li a {
+  color: #fff; /* 设置链接文字颜色为白色 */
+  text-decoration: none; /* 去除链接下划线 */
+  transition: color 0.3s; /* 添加过渡效果，使链接点击时颜色渐变 */
+}
+.search {
+  display: flex; /* 设置为Flexbox布局 */
+  justify-content: flex-end; /* 搜索框和按钮右对齐 */
+}
+
+/* 搜索框和按钮 */
+.search {
+  display: flex; /* 设置为Flexbox布局 */
+  justify-content: flex-end; /* 搜索框和按钮右对齐 */
+}
+.search input {
+  padding: 5px 10px; /* 设置内边距为5像素和10像素 */
+  border: none; /* 去除边框 */
+  border-radius: 5px; /* 设置圆角边框为5像素 */
+  background-color: #f0f0f0; /* 设置背景色为浅灰色 */
+  transition: background-color 0.3s; /* 添加过渡效果 */
+}
+.search input:focus {
+  background-color: #fff; /* 聚焦时的背景色为白色 */
+}
+.search button {
+  padding: 5px 10px; /* 设置内边距为5像素和10像素 */
+  background-color: #fff; /* 设置背景色为白色 */
+  border: none; /* 去除边框 */
+  border-radius: 5px; /* 设置圆角边框为5像素 */
+  cursor: pointer; /* 设置鼠标指针为手型，用于点击 */
+  transition: background-color 0.3s; /* 添加过渡效果 */
+}
+.search button:hover {
+  background-color: #e0e0e0; /* 悬停时的背景色为浅灰色 */
+}
+
+/* 页脚 */
+footer {
+  background-color: #0099cc;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-info {
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer-social a {
+  margin-right: 10px;
+}
+
+.footer-social img {
+  width: 100px;
+  height: 100px;
+}
+/* 页脚 */
+footer {
+  background-color: #0099cc; /* 设置页脚的背景色为浅蓝色 */
+  color: #fff; /* 设置页脚的文字颜色为白色 */
+  padding: 20px 100px; /* 设置页脚的上下内边距为20像素，左右内边距为0 */
+}
+
+.footer-info {
+  margin-bottom: 20px; /* 设置.footer-info类元素的底部外边距为20像素，用于添加间距 */
+}
+
+.footer-links {
+  margin-bottom: 20px; /* 设置.footer-links类元素的底部外边距为20像素，用于添加间距 */
+}
+
+.footer-links a {
+  color: #fff; /* 设置页脚链接的文字颜色为白色 */
+  text-decoration: none; /* 去除链接下划线，使链接看起来更加简洁 */
+  margin-right: 10px; /* 设置链接之间的间隔为10像素，以便于阅读 */
+}
+
+.footer-social a {
+  margin-right: 10px; /* 设置社交链接之间的间隔为10像素 */
+}
+
+.footer-social img {
+  width: 100px; /* 设置社交图标宽度为100像素 */
+  height: 100px; /* 设置社交图标高度为100像素 */
+}

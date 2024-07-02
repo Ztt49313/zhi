@@ -1,0 +1,49 @@
+
+/* 人才招聘 */
+.jobs {
+  padding: 20px 0;
+}
+
+.jobs h2 {
+  text-align: center;
+  color: #333;
+}
+
+.job-listings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.job-listing {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-listing h3 {
+  color: #333;
+}
+
+.job-listing p {
+  color: #666;
+}
+
+.job-listing a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #77aaff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.job-listing a:hover {
+  background: #0056b3;
+}
+
